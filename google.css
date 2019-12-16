@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    cursor: pointer;
+    line-height: 14px;
+}
+li:hover{
+    border-bottom: 1px solid rgb(105, 105, 105);
+  
+}
+#navright{
+    display: inline-block;
+    position: fixed;
+    right: 40px;
+}
+#footer-right{
+    display: inline-block;
+    position: fixed;
+    right: 40px;
+}
+#google-h1{
+    font-size: 85px;
+    
+}
+#ulfooter{
+    color: rgb(85, 85, 85);
+    margin-left: 30px;
+    margin-bottom: 14px;
+    padding-top: 15px;
+}
+#bluem{
+    height: 24px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: rgb(50, 121, 252);
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    line-height: 20px;
+}
+.google-letters{
+    margin-left: -20px;
+}
+#google-main{
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+#nav{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.spnav{
+    margin-left: 15px;
+}
+.spfooter{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+#google-footer{
+   position: fixed;
+   bottom: 0px;
+   background-color:rgb(231, 231, 231);
+   width: 100%;
+   padding-left: 20px;
+}
+#google-input{
+    width: 480px;
+    height: 40px;
+    border-radius: 80px;
+    border: 1px solid lightgray;
+    padding-left: 15px;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    outline: none;
+}
+#google-input:hover{
+    box-shadow: 0px 2px 6px rgb(201, 201, 201);
+}
+#google-buttons{
+    position: relative;
+    top: 60px;
+}
+button{
+    height: 35px;
+    width: 140px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    margin: 0 5px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: rgb(100, 100, 100);
+    border-radius: 5px;
+    outline: none;
+}
+button:hover{
+   border: 1px solid rgb(179, 179, 179);
+   color: black;
+   cursor: pointer;
+}
